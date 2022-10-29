@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(48, 137, 196);
+}
+.box {
+    background-color: white;
+    width: 75%;
+    height: 24rem;
+    margin: auto;
+    margin-top: 8rem;
+    padding: 1rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.phone {
+    text-align: center;
+    color: gray;
+    font-size: 16px;
+    padding: 3rem;
+    width: 33%;
+    line-height: 20px;
+    border-radius: 5px;
+}
+.phone:hover {
+    background-color: rgb(233, 233, 233);
+    cursor: pointer;
+}
+.laptop {
+    text-align: center;
+    color: gray;
+    font-size: 16px;
+    padding: 3rem;
+    width: 33%;
+    line-height: 20px;
+    border-radius: 5px;
+}
+.laptop:hover {
+    background-color: rgb(233, 233, 233);
+    cursor: pointer;
+}
+.tv {
+    text-align: center;
+    color: gray;
+    font-size: 16px;
+    padding: 3rem;
+    width: 33%;
+    line-height: 20px;
+    border-radius: 5px;
+}
+.tv:hover {
+    background-color: rgb(233, 233, 233);
+    cursor: pointer;
+}
+img {
+    width: 80px;
+    height: 80px;
+}
+h2 {
+    color: rgb(48, 137, 196);
+    letter-spacing: 3px;
+}
+.price {
+    font-size: 30px;
+    color: rgb(48, 137, 196);
+    font-weight: 700;
+}
+sup {
+    font-size: 20px;
+    font-weight: 300;
+}
+sub {
+    font-size: 18px;
+    font-weight: 300;
+}
